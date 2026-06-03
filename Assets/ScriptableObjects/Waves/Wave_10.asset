@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0defccca40d6748c8b00d006951e49b5, type: 3}
+  m_Name: Wave_10
+  m_EditorClassIdentifier: Assembly-CSharp::TowerGuard.Core.WaveData
+  waveName: Wave_10
+  enemies:
+  - enemyPrefab: {fileID: 1810720016896499105, guid: d64c0d07b376748c5a17338dd682a266, type: 3}
+    count: 8
+  - enemyPrefab: {fileID: 5934188990041548872, guid: 64009a998d1bb4864867687f422919f5, type: 3}
+    count: 2
+  - enemyPrefab: {fileID: 8085210156185033250, guid: bf58fabd8e07d4218a19b72bf65f08f5, type: 3}
+    count: 1
+  spawnInterval: 2
+  delayBeforeWave: 3

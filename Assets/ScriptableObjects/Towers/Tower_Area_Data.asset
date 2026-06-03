@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef6b070f3c81a4345b6621274bd62b56, type: 3}
+  m_Name: Tower_Area_Data
+  m_EditorClassIdentifier: Assembly-CSharp::TowerGuard.Core.TowerData
+  towerName: Magma Mortar
+  icon: {fileID: -7988833120663951776, guid: 920602aa8fafd4347a7ab93a6da22862, type: 3}
+  cost: 125
+  upgradeCost: 90
+  description: Splash damage to clusters of enemies.
+  damage: 20
+  range: 2
+  fireRate: 0.8
+  projectileSpeed: 8
+  projectilePrefab: {fileID: 7163113733319251297, guid: 1a8e66c786a0640ffbf4827876120fa5, type: 3}
+  upgradedDamage: 35
+  upgradedRange: 2.5
+  upgradedFireRate: 1

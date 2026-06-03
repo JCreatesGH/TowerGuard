@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef6b070f3c81a4345b6621274bd62b56, type: 3}
+  m_Name: Tower_Basic_Data
+  m_EditorClassIdentifier: Assembly-CSharp::TowerGuard.Core.TowerData
+  towerName: Arcane Ballista
+  icon: {fileID: -5943322199668383689, guid: bf037cb36cba840fc94af6301edbf2d0, type: 3}
+  cost: 50
+  upgradeCost: 40
+  description: Steady-fire arcane bolts. Cheap and reliable.
+  damage: 10
+  range: 3
+  fireRate: 1
+  projectileSpeed: 10
+  projectilePrefab: {fileID: 6114491147890542751, guid: 5ce48c42be3c44ae3bb7c34ff5b3ab6e, type: 3}
+  upgradedDamage: 18
+  upgradedRange: 3.5
+  upgradedFireRate: 1.3

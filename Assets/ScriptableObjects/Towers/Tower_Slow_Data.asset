@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef6b070f3c81a4345b6621274bd62b56, type: 3}
+  m_Name: Tower_Slow_Data
+  m_EditorClassIdentifier: Assembly-CSharp::TowerGuard.Core.TowerData
+  towerName: Frost Shrine
+  icon: {fileID: -7465361297276958768, guid: f5c9ea00140aa4c7b9aed99f658bfdb1, type: 3}
+  cost: 75
+  upgradeCost: 50
+  description: Slows every enemy in its aura.
+  damage: 5
+  range: 2.5
+  fireRate: 1.5
+  projectileSpeed: 8
+  projectilePrefab: {fileID: 9109729542367846627, guid: 12a3db84cca294eb6a3cf5193c61df99, type: 3}
+  upgradedDamage: 8
+  upgradedRange: 3
+  upgradedFireRate: 1.8
